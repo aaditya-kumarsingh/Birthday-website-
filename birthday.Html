@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Happy Birthday Ananya 💖</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+
+<style>
+*{box-sizing:border-box}
+body{
+  margin:0;
+  font-family:'Poppins',sans-serif;
+  background:linear-gradient(120deg,#ff758c,#ff7eb3);
+  overflow-x:hidden;
+}
+
+/* HERO */
+.hero{
+  height:100vh;
+  background:linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)),
+  url("https://img.sanishtech.com/u/bc2feefbbd7cae1f18ee79de9eb5919f.png?auto=format&fit=crop&w=1400&q=80");
+  background-size:cover;
+  background-position:center;
+  color:white;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  text-align:center;
+  padding:20px;
+}
+.hero h1{font-size:3rem;margin-bottom:10px}
+.hero p{font-size:1.2rem}
+
+/* SECTION */
+section{
+  background:white;
+  margin:30px auto;
+  padding:40px;
+  max-width:1000px;
+  border-radius:20px;
+  box-shadow:0 15px 40px rgba(0,0,0,.2);
+  text-align:center;
+}
+h2{color:#ff4f7b}
+
+/* ABOUT */
+.about img{
+  width:180px;
+  height:180px;
+  border-radius:50%;
+  border:5px solid #ff4f7b;
+  object-fit:cover;
+}
+
+/* GALLERY */
+.gallery{
+  display:flex;
+  flex-wrap:wrap;
+  gap:15px;
+  justify-content:center;
+}
+.gallery img{
+  width:200px;
+  height:200px;
+  border-radius:15px;
+  object-fit:cover;
+  transition:.4s;
+}
+.gallery img:hover{transform:scale(1.1)}
+
+/* BUTTON */
+button{
+  background:#ff4f7b;
+  color:white;
+  border:none;
+  padding:14px 30px;
+  border-radius:30px;
+  font-size:1.1rem;
+  cursor:pointer;
+}
+button:hover{background:#e63b66}
+
+/* CONFETTI */
+.confetti{
+  position:fixed;
+  width:10px;
+  height:10px;
+  top:-10px;
+  animation:fall linear forwards;
+}
+@keyframes fall{
+  to{transform:translateY(110vh) rotate(360deg);}
+}
+
+/* HEARTS */
+.heart{
+  position:fixed;
+  bottom:-10px;
+  font-size:22px;
+  animation:floatUp 5s linear forwards;
+}
+@keyframes floatUp{
+  to{transform:translateY(-110vh);opacity:0;}
+}
+
+footer{
+  color:white;
+  text-align:center;
+  padding:20px;
+  font-size:0.9rem;
+}
+
+/* 📱 MOBILE RESPONSIVE */
+@media(max-width:768px){
+  .hero h1{font-size:2.2rem}
+  .hero p{font-size:1rem}
+
+  section{
+    margin:20px 10px;
+    padding:25px;
+  }
+
+  .about img{
+    width:140px;
+    height:140px;
+  }
+
+  .gallery img{
+    width:140px;
+    height:140px;
+  }
+
+  button{
+    width:100%;
+    padding:14px;
+    font-size:1rem;
+  }
+
+  h2{font-size:1.4rem}
+}
+
+@media(max-width:480px){
+  .hero h1{font-size:1.8rem}
+  .gallery img{
+    width:120px;
+    height:120px;
+  }
+}
+</style>
+</head>
+
+<body>
+
+<!-- MUSIC (Mobile safe: tap to play allowed) -->
+<audio autoplay loop controls style="display:none;">
+  <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-2.mp3">
+</audio>
+
+<!-- HERO -->
+<div class="hero">
+  <div>
+    <h1>🎂 Happy Birthday my dear queen sister🎉</h1>
+    <p>The most beautiful sister (chuhiya bandriya meri sister )💖</p>
+  </div>
+</div>
+
+<!-- COUNTDOWN -->
+<section>
+  <h2>⏳ Countdown to Your Birthday</h2>
+  <div id="countdown" style="font-size:1.4rem;color:#ff4f7b;"></div>
+</section>
+
+<!-- ABOUT -->
+<section class="about">
+  <h2>💝 About You</h2>
+  <img src="https://img.sanishtech.com/u/14edc53d037a592820d7f4c49b8779d3.jpg?auto=format&fit=crop&w=500&q=80">
+  <p>
+   🎂 Happy Birthday meri choti si star behen ✨
+Teri smile mein jaadu hai aur teri baaton mein pyaar,
+hamesha khush reh, chamakti reh aur apni duniya roshan karti reh 🌸💫
+  </p>
+</section>
+
+<!-- GALLERY -->
+<section>
+  <h2>📸 Beautiful Memories</h2>
+  <div class="gallery">
+    <img src="https://img.sanishtech.com/u/d49e339ea2d7b9f86c476f9ce9aade5a.png?auto=format&fit=crop&w=500&q=80">
+    <img src="https://img.sanishtech.com/u/0a705379f3907369bc107d960e501b18.jpg?auto=format&fit=crop&w=500&q=80">
+    <img src="https://img.sanishtech.com/u/fae43121761e0665a267256f275d82c2.jpg?auto=format&fit=crop&w=500&q=80">
+    <img src="https://img.sanishtech.com/u/8a66c2fbc75bbd34db465ce58f7e7d89.jpg?auto=format&fit=crop&w=500&q=80">
+  </div>
+</section>
+
+<!-- FAMILY -->
+<section>
+  <h2>👨‍👩‍👧 Family Love</h2>
+  <div class="gallery">
+    <img src="https://img.sanishtech.com/u/b0e2e116bceccfc500409959dcd4a7c2.jpg?auto=format&fit=crop&w=500&q=80">
+    <img src="https://img.sanishtech.com/u/b3d6b6db4d7cfa53bf3bbc1510daf4a0.jpg?auto=format&fit=crop&w=500&q=80">
+    <img src="https://img.sanishtech.com/u/32b9c7712295e35e1c12455bc073754f.jpg?auto=format&fit=crop&w=500&q=80">
+    <img src="https://img.sanishtech.com/u/af1defa74ac2030c8fa5aefd244cdae9.jpg?auto=format&fit=crop&w=500&q=80">
+  </div>
+</section>
+
+<!-- MESSAGE -->
+<section>
+  <h2>💌 Message From Brother</h2>
+  <p>
+     Dear Sister 💕,<br><br>
+Bhagwan kare tumhari life hamesha happiness, success aur endless love se bhari rahe 🌸✨
+Tumhari smile 💫 hamesha aise hi chamakti rahe
+aur tum apne saare sapne 💭 poore karo.
+Yaad rakhna, tumhara bhai 💙 hamesha tumhare saath hai 🤗❤️
+
+— Your Brother 👑💖
+  </p>
+  <strong>– Your Brother ❤️</strong>
+</section>
+
+<!-- CAKE -->
+<section>
+  <h2>🎂 Blow the Candle</h2>
+  <img id="cake" src="https://img.sanishtech.com/u/bc2feefbbd7cae1f18ee79de9eb5919f.png"
+       width="200" style="cursor:pointer;" onclick="blow()">
+</section>
+
+<!-- SURPRISE -->
+<section>
+  <h2>🎁 Birthday Surprise</h2>
+  <button onclick="surprise()">Open Surprise 🎉</button>
+  <div id="surprise" style="margin-top:20px;font-size:1.4rem;color:#ff4f7b;"></div>
+</section>
+
+<footer>
+  💖 Made with Love for Ananya | Happy Birthday 🎂
+</footer>
+
+<script>
+const countdown=document.getElementById("countdown");
+const birthday=new Date(new Date().getFullYear(),1,10).getTime();
+
+setInterval(()=>{
+  let now=new Date().getTime();
+  let diff=birthday-now;
+  if(diff<=0){
+    countdown.innerHTML="🎉 It's Your Birthday Today 🎂";
+    return;
+  }
+  let d=Math.floor(diff/(1000*60*60*24));
+  let h=Math.floor((diff%(1000*60*60*24))/(1000*60*60));
+  let m=Math.floor((diff%(1000*60*60))/(1000*60));
+  let s=Math.floor((diff%(1000*60))/1000);
+  countdown.innerHTML=`${d} Days ${h} Hours ${m} Min ${s} Sec`;
+},1000);
+
+setInterval(()=>{
+  let h=document.createElement("div");
+  h.className="heart";
+  h.innerHTML="💖";
+  h.style.left=Math.random()*100+"vw";
+  document.body.appendChild(h);
+  setTimeout(()=>h.remove(),5000);
+},700);
+
+function blow(){
+  document.getElementById("cake").style.opacity="0.6";
+  alert("🎉 Make a wish Ananya 💖");
+}
+
+function surprise(){
+document.getElementById("surprise").innerHTML =
+"🎉🎂 Meri pyaari sister 💕 hamesha apni life mein aage badhti raho 🚀 aur success hasil karti raho 🌟. Tumhara bhai 💙 aur tumhari family 👨‍👩‍👧 hamesha tumhare saath khadi hai 🤗❤️";
+  for(let i=0;i<30;i++){
+    let c=document.createElement("div");
+    c.className="confetti";
+    c.style.left=Math.random()*100+"vw";
+    c.style.background="hsl("+Math.random()*360+",100%,50%)";
+    c.style.animationDuration=(Math.random()*3+2)+"s";
+    document.body.appendChild(c);
+    setTimeout(()=>c.remove(),5000);
+  }
+}
+</script>
+
+</body>
+</html>
